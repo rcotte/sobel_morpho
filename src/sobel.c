@@ -29,9 +29,12 @@ void sobel(int width, int height, unsigned char *input, unsigned char *output) {
                input[(j + 1) * width + i + 1];
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> Skiable
+=======
+>>>>>>> 99a005bc47ac597c8fe5fe44559cbe574e79f300
       output[(j-1)*width + i] = fminf(sqrtf(gx * gx + gy * gy), 255);
     }
   }
