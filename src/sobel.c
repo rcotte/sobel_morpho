@@ -33,6 +33,8 @@ void sobel(int width, int height, unsigned char *input, unsigned char *output) {
   }
 
   // Fill the left and right sides
+
+int test=0;
   for (j = 0; j < height - 2; j++) {
     output[j * width] = 0;
     output[(j + 1) * width - 1] = 0;
