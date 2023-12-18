@@ -18,5 +18,10 @@ jobs:
     - name: SDLIBTTF
       run: sudo apt-get install libsdl2-ttf-dev
       
-    - name: Build & Run
+    - name: Make generation
       run: ./CMakeGCC.sh
+    
+    - name: Build and run
+      run: make
+      
+          
