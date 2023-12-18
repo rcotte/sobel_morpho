@@ -12,5 +12,8 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v2
       
+    - name: SDLIB
+      run: sudo apt-get install libsdl2-dev
+      
     - name: Build & Run
       run: ./CMakeGCC.sh
