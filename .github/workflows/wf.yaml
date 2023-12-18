@@ -13,4 +13,4 @@ jobs:
       uses: actions/checkout@v2
       
     - name: Build & Run
-      run: gcc -o sobel src/sobel.c
+      run: ./CMakeGCC.sh
