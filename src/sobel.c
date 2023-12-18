@@ -17,6 +17,8 @@
 void sobel(int width, int height, unsigned char *input, unsigned char *output) {
   int i, j;
 
+int idiot=12;
+
   // Apply the filter
   for (j = 1; j < height - 1; j++) {
     for (i = 1; i < width - 1; i++) {

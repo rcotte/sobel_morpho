@@ -1,0 +1,3 @@
+/home/eii/TPCULOG/sobel_morpho/cmake-build-debug/CMakeFiles/sobel.dir
+/home/eii/TPCULOG/sobel_morpho/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/eii/TPCULOG/sobel_morpho/cmake-build-debug/CMakeFiles/rebuild_cache.dir
