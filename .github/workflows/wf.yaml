@@ -15,5 +15,8 @@ jobs:
     - name: SDLIB
       run: sudo apt-get install libsdl2-dev
       
+    - name: SDLIBTTF
+      run: sudo apt-get install libsdl-ttf2.0-dev
+      
     - name: Build & Run
       run: ./CMakeGCC.sh
