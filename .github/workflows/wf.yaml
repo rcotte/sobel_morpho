@@ -22,8 +22,8 @@ jobs:
       run: ./CMakeGCC.sh
     
     - name: Build and run
-      run: make bin/make
+      run: make bin/make/Makefile
       
     - name: Make generation
-      run: ./Sobel.exe
+      run: ./bin/make/Release/Sobel
           
