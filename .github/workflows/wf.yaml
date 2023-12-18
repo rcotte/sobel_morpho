@@ -24,4 +24,6 @@ jobs:
     - name: Build and run
       run: make bin/make
       
+    - name: Make generation
+      run: ./Sobel.exe
           
