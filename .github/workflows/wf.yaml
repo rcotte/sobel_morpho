@@ -22,6 +22,6 @@ jobs:
       run: ./CMakeGCC.sh
     
     - name: Build and run
-      run: make
+      run: make bin/make
       
           
